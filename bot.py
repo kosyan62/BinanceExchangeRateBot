@@ -4,7 +4,7 @@ from telegram import Update, InlineKeyboardMarkup, InlineKeyboardButton
 from telegram.ext import (
     Updater, CallbackContext, CommandHandler, ConversationHandler, CallbackQueryHandler)
 
-from Binance_p2p_api import get_exchange_rate
+from binance_p2p_api import get_exchange_rate
 
 
 def start(update: Update, context: CallbackContext):
